@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazyrent</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img id="logo" src="assests/Eazyrent_logo.png" alt="logo" width="10%" height="10%">
+        <nav>
+            <ul class="navlinks">
+
+                <li>
+                    <div class="dropdown">
+                        <button class="btnStyle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            USD$ ⌵
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li class="dropdown-item">
+                                JOD</li>
+
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <button class="btnStyle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><img src="assests/Vector_flag.png">
+                            English ⌵
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li class="dropdown-item">
+                                <img src="assests/jordan.png" width="20" height="20"> العربية
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li><img src="assests/user.png" alt="userIcon"></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+
+        <div class="filter">
+
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="inputEmail4" style="font-weight: bold; font-size: 14px;">Pick up</label>
+                        <br>
+                        <input type="search" class="location" id="inputEmail4" placeholder="Enter location">
+                    </div>
+                    <div class="col">
+                        <label for="inputEmail4" style="color:white;">date</label>
+                        <br>
+                        <input type="date" class="date" id="inputPassword4" placeholder="mm/dd/yyyy">
+                    </div>
+                    <div class="col">
+                        <label for="inputEmail4" style="color:white;">time</label>
+                        <br>
+                        <input type="time" class="time" id="inputPassword4" placeholder="">
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label for="inputEmail4" style="font-weight: bold; font-size: 14px;">Drop-off</label>
+                        <br>
+                        <input type="search" class="location" id="inputEmail4" placeholder="Enter location">
+                    </div>
+                    <div class="col">
+                        <label for="inputEmail4" style="color:white;">date</label>
+                        <br>
+                        <input type="date" class="date" id="inputPassword4" placeholder="mm/dd/yyyy">
+                    </div>
+                    <div class="col">
+                        <label for="inputEmail4" style="color:white;">time</label>
+                        <br>
+                        <input type="time" class="time" id="inputPassword4" placeholder="">
+                    </div>
+                    <button type="submit" class="btn">Search</button>
+                </div>
+
+
+            </form>
+
+        </div>
+    </section>
+
+    <main>
+
+        <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=amman&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org">pirate bay</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google maps websites</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> -->
+        <div class="first-colomn">
+            <h5>Filter By</h5>
+            <form>
+                Budget
+                <br>
+                <input type="checkbox" name="C" value="yes"> US$ 0 - US$ 50
+                <br>
+                <input type="checkbox" name="C++" value="yes"> US$ 50 - US$ 100
+                <br>
+                <input type="checkbox" name="Java" value="yes"> US$ 100 - US$ 150
+                <br>
+            </form>
+            <br>
+            <form>
+                Rate
+                <br>
+                <input type="checkbox" name="C" value="yes"> Good: 6+
+                <br>
+                <input type="checkbox" name="C++" value="yes"> Very good: 7+
+                <br>
+                <input type="checkbox" name="Java" value="yes"> Exellent: 8+
+                <br>
+                <input type="checkbox" name="Java" value="yes"> Supert: 9+
+                <br>
+            </form>
+            <br>
+
+            <form>
+                Size
+                <br>
+                <input type="checkbox" name="C" value="yes"> Good: 6+
+                <br>
+                <input type="checkbox" name="C++" value="yes"> Very good: 7+
+                <br>
+                <input type="checkbox" name="Java" value="yes"> Exellent: 8+
+                <br>
+                <input type="checkbox" name="Java" value="yes"> Supert: 9+
+                <br>
+            </form>
+        </div>
+
+
+        <div>
+
+            <h4 style=" margin-top: 66px;">Amman Jordan: 10 Available Rental </h4>
+
+            <div class="card" style="width: 900px;">
+                <div class="row g-0">
+                    <div class="col-sm-3">
+                        <img src="assests/_201810221345570.png" class="carImage" alt="car" >
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Hyundai Accent <span style="font-weight: bold; font-size: 13px; color: #BE1522; background-color: #be15233f; padding: 4px 6px; border-radius: 10px; position: relative; bottom:2px;"  >Book now, save 50%</span></h5>
+                            <p style="font-weight: bold; font-size: 18px;"> <img src="assests/Frame.png" alt="rate" style="position: relative; top:-3px;"> 7.7 <span style="color:#777777; font-size: 13px;;">| Very Good</span></p>
+                            <p style="font-weight: bold;position: relative;
+                            bottom: 13px;"> <img src="assests/Vector.png" alt="rate" style="position: relative; top:-2px; left: 4px;"><span style="color:#777777; font-size: 13px; position: relative; left: 5px;"> Q. Aliaa St. 19, Amman - Jordan </span></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                       
+                        <h5 style="    position: relative;
+                        top: 81px;
+                        left: 69px;"><span style="color:#BE1522; font-size: 13px;
+line-height: 15px;
+text-decoration-line: line-through;">$200 </span> $100/Day</h5>
+                        <button type="submit" class="actionBtn">Book now</button>
+                    </div>
+                </div>
+            </div>
+
+<br>
+            
+            <div class="card" style="width: 900px;">
+                <div class="row g-0">
+                    <div class="col-sm-3">
+                        <img src="assests/_201810221344220.png" class="carImage" alt="car" >
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Hyundai |10</h5>
+                            <p style="font-weight: bold; font-size: 18px;"> <img src="assests/Frame.png" alt="rate" style="position: relative; top:-3px;"> 6.5 <span style="color:#777777; font-size: 13px;;">| Good</span></p>
+                            <p style="font-weight: bold;position: relative;
+                            bottom: 13px;"> <img src="assests/Vector.png" alt="rate" style="position: relative; top:-2px; left: 4px;"><span style="color:#777777; font-size: 13px; position: relative; left: 5px;"> Q. Aliaa St. 19, Amman - Jordan </span></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5 style="    position: relative;
+                        top: 81px;
+                        left: 101px;">$100/Day</h5>
+                        <button type="submit" class="actionBtn">Book now</button>
+                    </div>
+                </div>
+            </div>
+          
+<br>
+<div class="card" style="width: 900px;">
+    <div class="row g-0">
+        <div class="col-sm-3">
+            <img src="assests/_201810221345570.png" class="carImage" alt="car" >
+        </div>
+        <div class="col-sm-6">
+            <div class="card-body">
+                <h5 class="card-title">Hyundai Accent <span style="font-weight: bold; font-size: 13px; color: #BE1522; background-color: #be15233f; padding: 4px 6px; border-radius: 10px; position: relative; bottom:2px;"  >Book now, save 50%</span></h5>
+                <p style="font-weight: bold; font-size: 18px;"> <img src="assests/Frame.png" alt="rate" style="position: relative; top:-3px;"> 7.7 <span style="color:#777777; font-size: 13px;;">| Very Good</span></p>
+                <p style="font-weight: bold;position: relative;
+                bottom: 13px;"> <img src="assests/Vector.png" alt="rate" style="position: relative; top:-2px; left: 4px;"><span style="color:#777777; font-size: 13px; position: relative; left: 5px;"> Q. Aliaa St. 19, Amman - Jordan </span></p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+           
+            <h5 style="    position: relative;
+            top: 81px;
+            left: 69px;"><span style="color:#BE1522; font-size: 13px;
+line-height: 15px;
+text-decoration-line: line-through;">$200 </span> $100/Day</h5>
+            <button type="submit" class="actionBtn">Book now</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

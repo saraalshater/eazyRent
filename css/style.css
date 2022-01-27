@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+
+  header{
+      background-color: #33A4DC;
+      display:flex;
+justify-content: space-between;
+align-items:center;
+padding: 1px 6%;
+  }  
+
+  nav{
+      position: relative;
+      top: 10px;
+  }
+    
+  .navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+    top: 4px;
+}
+    
+    .btnStyle{
+        padding:6px 3px;
+background-color: #33A4DC;
+color:white;
+border: none;
+
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 14px;
+    }
+ 
+
+        section{
+            
+         background-color: #33A4DC;
+        }
+
+        .location {
+            padding-left: 25px;
+            background: url("/assests/Vector.png") no-repeat left;
+            background-position: 6px;
+            background-size: 13px;
+            background-color: #ECECE9;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 23px;
+
+          }
+
+.date{
+    
+  
+    background-color: #ECECE9;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 2px;
+    margin: -1px 40px;
+}
+
+.time{
+   
+  padding: 4px 2px;
+    
+    background-color: #ECECE9;
+    border: none;
+    border-radius: 3px;
+    margin: -1px 48px;
+}
+   
+
+
+
+          .filter{
+          
+            padding: 6px 18px;
+            display: inline-block;
+            background: #FFFFFF;
+            border: 0.8px solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 3px;
+            margin: 0px 106px 19px 85px;
+
+          }
+
+
+          .form-row{
+           
+            display: flex;
+            flex-wrap: wrap;
+            
+          }
+
+          .btn{
+            width: 92px;
+height: 35px;
+margin-top: 31px;
+background-color: #FDC600;
+color:black;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 14px;
+          }
+
+          .btn:hover{
+            background-color: #ebbb10;
+          }
+          main{
+            background-color: #E5E5E5;
+          }
+
+main{
+  display: flex;
+}
+          .first-colomn{
+           
+            margin: 51px 19px 19px 84px;
+    display: inline-block;
+    width: 253px;
+    background: #FFFFFF;
+    border: 0.8px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 14px 17px;
+          }
+
+          .cars{
+            width: 253px;
+            background: #FFFFFF;
+            border: 0.8px solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 3px;
+          }
+
+.carImage{
+  margin: 11px;
+}
+.price{
+
+}
+.actionBtn{
+  width: 168px;
+  height: 45px;
+  position: relative;
+  top: 81px;
+  left: 22px;
+  background-color: #143666;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.map{
+  position: fixed;
+  display: block;
+}
